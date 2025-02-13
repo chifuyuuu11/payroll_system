@@ -1,4 +1,5 @@
-<link rel="icon" href="images/fevicon.png" type="image/png" />
+      <!-- site icon -->
+      <link rel="icon" href="images/fevicon.png" type="image/png" />
       <!-- bootstrap css -->
       <link rel="stylesheet" href="css/bootstrap.min.css" />
       <!-- site css -->
@@ -13,3 +14,7 @@
       <link rel="stylesheet" href="css/perfect-scrollbar.css" />
       <!-- custom css -->
       <link rel="stylesheet" href="css/custom.css" />
+      <!-- calendar file css -->
+      <link rel="stylesheet" href="js/semantic.min.css" />
+      <!-- fancy box js -->
+      <link rel="stylesheet" href="css/jquery.fancybox.css" />

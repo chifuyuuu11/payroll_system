@@ -1,4 +1,5 @@
-<script src="js/jquery.min.js"></script>
+      <!-- jQuery -->
+      <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <!-- wow animation -->
@@ -20,3 +21,8 @@
       <!-- custom js -->
       <script src="js/custom.js"></script>
       <script src="js/chart_custom_style1.js"></script>
+      <!-- fancy box js -->
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/jquery.fancybox.min.js"></script>
+      <!-- calendar file css -->    
+      <script src="js/semantic.min.js"></script>
