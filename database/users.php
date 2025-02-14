@@ -40,7 +40,28 @@ class Users extends Database {
             return "Username already exists!";
         }
     }
+
+    function loginUser($username, $password) {
+        $sql_username = "SELECT * FROM tbl_users WHERE username = ?";
+        $result_username = $this->conn()->prepare($sql_username);
+        $result_username->execute([$username]);
+    
+        $row = $result_username->fetch(PDO::FETCH_ASSOC);
+    
+        if(!$row) {
+            return "Username doesn't exist";
+    
+        } else {
+            $check = password_verify($password, $row['password']);
+            if ($check) {
+                return "Successfully Logged in";
+            } else {
+                return "Password doesn't match";
+            }
+        }
+    }
 }
+
 
 $user = new Users();
 ?>
